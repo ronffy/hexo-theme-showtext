@@ -40,7 +40,7 @@
                     </div>
                     <div class="post-author">
                         <h4>Author</h4>
-                        <h5><%= post.author || "roonly" %></h5>
+                        <h5><%= post.author || config.author %></h5>
                         <img src="<%- url_for( post["author-img"] )%>">
                         <p>
                             <a href="javascript:;" data-href="<%- url_for(post.path) %>">
