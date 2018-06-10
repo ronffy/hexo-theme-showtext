@@ -1,6 +1,6 @@
 > This ShowText theme created by [Ronffy](https://github.com/ronffy) modified from the original Porter [LanMiao](http://lanmiao.oschina.io)
 
-# [在线 Demo](http://ronffy.github.io)
+## 主题预览
 ![](./mytheme.png)
 
 ## 怎样使用本主题
@@ -8,9 +8,6 @@
 ```bash
 # 在hexo项目执行如下命令
 cd themes
-```
-
-```bash
 git clone https://github.com/ronffy/hexo-theme-showtext.git
 ```
 
@@ -19,7 +16,7 @@ git clone https://github.com/ronffy/hexo-theme-showtext.git
 theme: hexo-theme-showtext
 ```
 
-其他配置项，请参照[DEMO](https://github.com/ronffy/hexo-roronoa-blog)
+更多配置项，请参照[DEMO](https://github.com/ronffy/hexo-roronoa-blog)
 
 # Have fun ^_^
 
