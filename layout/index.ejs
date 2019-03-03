@@ -45,7 +45,9 @@
                     </div>
                     <div class="post-author">
                         <h4>Author</h4>
-                        <h5><%= post.author || config.author %></h5>
+                        <h5>
+                            <a href="<%= post["author-zone"] || config["author-zone"] %>"><%= post.author || config.author %></a>
+                        </h5>
                         <img src="<%- url_for( post["author-img"] || config["author-img"] )%>">
                     </div>
                 </div>

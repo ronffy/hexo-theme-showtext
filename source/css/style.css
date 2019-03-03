@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
 }
 
-ul, ol {
+ul {
     list-style: none;
 }
 
@@ -115,7 +115,8 @@ a:focus, a.active {
     font-size: 17px;
     line-height: 1.4;
     font-weight: normal;
-    margin: 10px 0 30px;
+    // margin: 10px 0 30px;
+    margin: 0;
     margin-top: -5px;
 }
 
@@ -139,6 +140,17 @@ a:focus, a.active {
     .intro-header .post-heading .meta {
         font-size: 20px;
     }
+}
+
+.subauthor {
+    text-align: right;
+}
+.subauthor a {
+    font-size: 18px;
+    color: #fff;
+}
+.subauthor a:hover {
+    color: rgb(230, 97, 140);
 }
 
 /*-----------------------------nav-----------------------------------*/
@@ -580,6 +592,10 @@ footer .copyright a:focus {
     border-bottom: 1px solid rgb(238, 238, 238);
 }
 
+.post-container ul {
+  list-style: disc;
+}
+
 .post-container .post-list a {
     color: #404040;
 }
@@ -622,8 +638,20 @@ footer .copyright a:focus {
 }
 
 /*-----------------------about------------------------*/
-.about-title{
+.about-title {
     text-align: center;
     font-size: 30px;
     font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+.about-subtitle {
+    font-size: 16px;
+    color: #666;
+    text-align: right;
+}
+.about-content ul li {
+    font-size: 14px;
+}
+.about-content img {
+    display: inline-block;
+    width: 49%;
 }

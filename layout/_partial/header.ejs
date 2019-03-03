@@ -58,6 +58,9 @@
         }
     }
 </style>
+<% if(page.icon) { %>
+    <img style="display: block;height:0;width:0;" src=<%= page.icon %>  />
+<% } %>
 
 <header class="intro-header">
     <div class="container">
@@ -72,6 +75,12 @@
                         <h2 class="subheading">
                             <%= page.describe || "" %>
                         </h2>
+                        <p class="subauthor">
+                            Posted by 
+                            <a href="<%= page["author-zone"] || config["author-zone"] %>">
+                                <%= page.author || config.author %>
+                            </a> on <%- date(page.date, "YYYY-MM-DD") %>
+                        </p>
                     </div>
                     <!-- 非文章 -->
                     <% } else { %>
